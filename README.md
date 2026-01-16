@@ -1,88 +1,50 @@
-# Prompt Library for AI Product Managers
+# Product Strategy Prompts
 
-A curated, product-first prompt library designed to help AI Product Managers design, validate, and iterate AI-powered products efficiently.
+This section focuses on prompts used in the **early stages of AI product development**, helping AI Product Managers clarify problems, validate opportunities, and make informed decisions.
 
-This repository focuses on **real-world AI PM workflows**, not generic prompt collections.
-
----
-
-## Why This Prompt Library?
-
-As AI Product Managers, we often face challenges such as:
-
-- Writing high-quality prompts repeatedly for similar tasks
-- Translating ambiguous product problems into structured AI inputs
-- Evaluating LLM outputs beyond “sounds good”
-- Lacking a reusable prompt system across discovery, design, and delivery
-
-This prompt library aims to provide a **systematic, reusable, and PM-oriented prompt toolkit** for building AI products.
+These prompts are designed to support **structured thinking**, not just idea generation.
 
 ---
 
-## Who Is This For?
+## When to Use
 
-- AI Product Managers
-- Product Designers / UX Designers working on AI products
-- Indie builders designing LLM-powered features
-- Anyone responsible for defining AI behavior and outcomes
+- Problem discovery
+- Opportunity assessment
+- Early AI feature ideation
+- Strategic alignment discussions
 
 ---
 
-## Prompt Categories
+## What’s Included
 
-### 🧠 Product Strategy
-Prompts for discovery, validation, and decision-making.
-- User problem discovery
+- User problem discovery prompts
 - Market & competitor analysis
-- Value proposition & positioning
-- AI feature ideation
-
-### 🧪 Prompt Engineering (PM Perspective)
-Prompts focused on controlling outputs and reducing uncertainty.
-- Zero-shot / Few-shot prompts
-- Constraint & role-based prompting
-- Multi-step reasoning prompts
-- Prompt iteration templates
-
-### 🎨 UX & Conversation Design
-Designing AI as a product experience.
-- AI persona definition
-- Conversation flow design
-- Error handling & fallback prompts
-- Tone & style alignment
-
-### 📊 Evaluation & Metrics
-Evaluating AI outputs like a PM, not a demo.
-- Output quality evaluation
-- Hallucination & risk detection
-- Edge case analysis
-- Prompt A/B testing templates
-
-### 🚀 Execution & Delivery
-From idea to implementation.
-- PRD generation
-- User stories & acceptance criteria
-- AI feature roadmap planning
-- Stakeholder-ready summaries
+- Value proposition definition
+- AI feature ideation & prioritization
 
 ---
 
-## Example Prompt
+## Design Principles
 
-### User Problem Exploration
+- Start from user problems, not AI capabilities
+- Explicit assumptions over vague insights
+- Outputs should support decision-making
 
-**Goal:** Identify core user pain points for an AI feature
+---
 
-**Prompt:**
-You are an AI Product Manager.
+## Example Use Case
 
-Given the following product idea, identify:
-1. Primary user personas
-2. Core pain points
-3. Jobs-to-be-done
-4. Key assumptions and risks
+Use these prompts when:
+- Exploring whether an AI feature is worth building
+- Preparing discovery materials for stakeholders
+- Stress-testing product ideas before execution
 
-Product idea:
-[Describe your product here]
-**When to use:** Discovery / early ideation phase  
-**Output checklist:** Clear personas, actionable pain points, explicit assumptions
+---
+
+## Files Overview
+
+Each markdown file contains:
+- Prompt goal
+- Recommended context
+- Example input
+- Output evaluation checklist
